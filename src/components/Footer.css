@@ -1,0 +1,90 @@
+
+footer {
+  margin: 0 auto;
+  width: 100vw;
+  background-color: #292929;
+}
+
+footer p {
+  color: white;
+}
+
+.footerContent {
+  margin: 0 auto;
+  background-color: #292929;
+  width: 60vw;
+}
+
+.footerMain {
+  padding-top: 30px;
+  text-align: left;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.footerContactInfo {
+  display: grid;
+  grid-template-columns: 1fr 6fr;
+  margin: 30px 0;
+}
+
+.footerContactInfo p{
+  font-size: 14px;
+}
+
+.footerMenuHeading {
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 30px;
+}
+
+.footerMenuFood p {
+  margin-bottom: 5px;
+}
+
+.footerInsta p {
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 30px;
+}
+
+.instaPhoto {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 10px;
+}
+
+.instaPhoto img {
+  border-radius: 3px;
+  width: 80px;
+  aspect-ratio: 1-1;
+}
+
+.footerSeparator {
+  color: white;
+
+  position: relative;
+  left: -20vw;
+  width: 100vw;
+}
+
+.footerBottom {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.twitterIcon {
+  color: white;
+  margin-bottom: 16px;
+}
+
+@media (max-width: 600px) {
+  .footerMain {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}

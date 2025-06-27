@@ -1,0 +1,141 @@
+
+
+.successSummaryWrapper {
+  margin: 0 auto;
+  margin-bottom: 100px;
+  width: 30vw;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.successContainer {
+  margin: 0 0;
+  background-color: #ce2829;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.successSeparator {
+  width: 100%;
+  border: 1px solid white;
+  opacity: 0.7;
+}
+
+.sloganTop {
+  font-family: "Satisfy";
+  font-size: 32px;
+  font-weight: 400;
+  color: #fdc913;
+  margin: 0;
+}
+
+.successOrder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  font-size: 60px;
+  color: white;
+  font-weight: 200;
+  margin: 0px;
+}
+
+.successSeparator {
+  color: white;
+}
+
+.successSummaryWrapper span {
+  font-weight: 500;
+}
+.orderTitle {
+  font-weight: 600;
+  font-size: 22px;
+  color: white;
+}
+
+.orderSummary {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.orderDetail {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  width: 15vw;
+  text-align: left;
+}
+
+.orderDetail p {
+  font-size: 14px;
+  color: white;
+}
+
+.successOrderTotal {
+  text-align: left;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.successPrice {
+  margin: 0;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.successOrderTotalPrice {
+  width: 25vw;
+  padding: 20px;
+  border: 1px solid #c6c7ca;
+  border-radius: 6px;
+  margin: 0;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-weight: 500;
+
+  color: white;
+}
+
+.price {
+  margin: 20px 0 10px 0;
+}
+
+.successExtraPrice,
+.successTotalPrice {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 0;
+  margin: 0 0;
+}
+
+@media (max-width: 600px) {
+  .successSummaryWrapper {
+    width: 100vw;
+  }
+
+  .successSeparator {
+    width: 60vw;
+    margin: 0 auto;
+  }
+
+  .orderDetail {
+    width: 60vw;
+  }
+  .successOrderTotalPrice {
+    width: 60vw;
+  }
+  .successOrderPrice {
+    margin: 0 auto;
+  }
+}
