@@ -27,7 +27,7 @@ git clone https://github.com/bertan-arslan/pizza_web
 2. Proje dizinine gir:
 
 ```bash
-cd pizza-order-app
+cd pizza_order_app
 ```
 
 3. Bağımlılıkları yükle:
