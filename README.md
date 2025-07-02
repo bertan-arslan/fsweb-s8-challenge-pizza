@@ -1,80 +1,89 @@
-# Pizza Sipariş Web Sitesi
 
-React ile geliştirilmiş, kullanıcıların pizza siparişi verebildiği dinamik ve interaktif bir web uygulaması.
+# Pizza Sipariş Web Sitesi | Pizza Order Website
 
----
-
-## Özellikler
-
-- Ana sayfada öne çıkan pizza ve menülerin gösterimi
-- Pizza boyutu, hamur tipi ve ekstra malzemeler seçilebilen sipariş formu
-- Seçilen malzemelere göre dinamik fiyat hesaplama
-- Form validasyonu ile kullanıcı girdilerinin kontrolü
-- Sipariş sonrası başarı sayfasında özet gösterimi
-- React Router DOM v5 ile sayfalar arası geçiş
-- Axios kullanılarak örnek API’ye sipariş gönderimi (mock API)
+Bu proje React ile geliştirilmiş, kullanıcıların pizza siparişi verebildiği dinamik ve interaktif bir web uygulamasıdır.  
+This project is a dynamic and interactive web application built with React, allowing users to place pizza orders.
 
 ---
 
-## Kurulum ve Çalıştırma
+## Özellikler | Features
 
-1. Depoyu klonla:
-
-```bash
-git clone https://github.com/bertan-arslan/pizza_order
-```
-
-2. Proje dizinine gir:
-
-```bash
-cd pizza_order
-```
-
-3. Bağımlılıkları yükle:
-
-```bash
-npm install
-```
-
-4. Uygulamayı başlat:
-
-```bash
-npm run dev
-```
-
-5. Tarayıcında `http://localhost:5173/` adresinden aç.
+- Ana sayfada öne çıkan pizza ve menülerin gösterimi  
+  Display of featured pizzas and menu items on the homepage
+- Pizza boyutu, hamur tipi ve ekstra malzemeler seçilebilen sipariş formu  
+  Order form where users can choose pizza size, crust type, and extra toppings
+- Seçilen malzemelere göre dinamik fiyat hesaplama  
+  Dynamic price calculation based on selected ingredients
+- Form validasyonu ile kullanıcı girdilerinin kontrolü  
+  Form validation to check user inputs
+- Sipariş sonrası başarı sayfasında özet gösterimi  
+  Order summary displayed on a success page after submission
+- React Router DOM v5 ile sayfalar arası geçiş  
+  Page navigation using React Router DOM v5
+- Axios kullanılarak örnek API’ye sipariş gönderimi (mock API)  
+  Sending orders to a sample API using Axios (mock API)
 
 ---
 
-## Teknolojiler
+## Kurulum ve Çalıştırma | Installation and Running
+
+1. Depoyu klonla | Clone the repository:
+
+    ```bash
+    git clone https://github.com/bertan-arslan/pizza_order
+    ```
+
+2. Proje dizinine gir | Navigate to the project directory:
+
+    ```bash
+    cd pizza_order
+    ```
+
+3. Bağımlılıkları yükle | Install dependencies:
+
+    ```bash
+    npm install
+    ```
+
+4. Uygulamayı başlat | Start the application:
+
+    ```bash
+    npm run dev
+    ```
+
+5. Tarayıcıdan aç | Open in your browser: `http://localhost:5173/`
+
+---
+
+## Teknolojiler | Technologies
 
 - React
 - React Router DOM v5
 - Axios
-- CSS (özelleştirilmiş stiller)
-- Reqres.in API (mock backend olarak)
+- CSS (özelleştirilmiş stiller | custom styles)
+- Reqres.in API (mock backend olarak | as a mock backend)
 
 ---
 
-## Proje Yapısı (Örnek)
+## Proje Yapısı (Örnek) | Project Structure (Example)
 
-- `/src` — React bileşenleri ve stiller
-- `/src/Info` — Menü ve malzeme bilgileri
-- `/src/Forms` — Form bileşenleri
-- `/src/Home.js` — Ana sayfa
-- `/src/OrderPizza.js` — Sipariş formu
-- `/src/Success.js` — Sipariş sonrası başarı sayfası
-
----
-
-## Notlar
-
-- İlk frontend projem olarak React Router DOM v5 kullandım.
-- Form validasyonları ve dinamik fiyat hesaplama uygulandı.
-- Gerçek backend yerine Reqres.in mock API kullanıldı.
+```
+/src
+  ├── Bileşenler ve stiller | Components and styles
+  ├── Info       // Menü ve malzeme bilgileri | Menu and topping information
+  ├── Forms      // Form bileşenleri | Form components
+  ├── Home.js    // Ana sayfa | Homepage
+  ├── OrderPizza.js // Sipariş formu | Order form
+  ├── Success.js // Sipariş sonrası başarı sayfası | Order success page
+```
 
 ---
 
-## Lisans
+## Notlar | Notes
 
-MIT © 2025 [Senin Adın]
+- İlk frontend projem olarak React Router DOM v5 kullandım.  
+  I used React Router DOM v5 as this is my first frontend project.
+- Form validasyonları ve dinamik fiyat hesaplama uygulandı.  
+  Implemented form validation and dynamic price calculation.
+- Gerçek backend yerine Reqres.in mock API kullanıldı.  
+  Used Reqres.in as a mock API instead of a real backend.
