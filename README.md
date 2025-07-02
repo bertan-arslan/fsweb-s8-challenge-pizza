@@ -21,13 +21,13 @@ React ile geliştirilmiş, kullanıcıların pizza siparişi verebildiği dinami
 1. Depoyu klonla:
 
 ```bash
-git clone https://github.com/bertan-arslan/pizza_web
+git clone https://github.com/bertan-arslan/pizza_order
 ```
 
 2. Proje dizinine gir:
 
 ```bash
-cd pizza_order_app
+cd pizza_order
 ```
 
 3. Bağımlılıkları yükle:
