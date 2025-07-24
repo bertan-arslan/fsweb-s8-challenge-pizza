@@ -9,17 +9,17 @@ export default function Footer() {
       <div className="footerContent">
         <section className="footerMain">
           <div className="shopInfo">
-            <img src="public/images/footer/logo-footer.svg" />
+            <img src="/images/footer/logo-footer.svg" />
             <div className="footerContactInfo">
-              <img src="public/images/footer/icons/location.png" />
+              <img src="/images/footer/icons/location.png" />
               <p>
                 341 Londonderry Road,
                 <br />
                 Istanbul, Türkiye{" "}
               </p>
-              <img src="public/images/footer/icons/mail.png" />
+              <img src="/images/footer/icons/mail.png" />
               <p>aciktim@teknolojikyemekler.com</p>
-              <img src="public/images/footer/icons/phone.png" />
+              <img src="/images/footer/icons/phone.png" />
               <p>+90 216 123 45 67</p>
             </div>
           </div>
@@ -37,12 +37,12 @@ export default function Footer() {
           <div className="footerInsta">
             <p>Instagram</p>
             <div className="instaPhoto">
-              <img src="public/images/footer/insta/li-0.png" />
-              <img src="public/images/footer/insta/li-1.png" />
-              <img src="public/images/footer/insta/li-2.png" />
-              <img src="public/images/footer/insta/li-3.png" />
-              <img src="public/images/footer/insta/li-4.png" />
-              <img src="public/images/footer/insta/li-5.png" />
+              <img src="/images/footer/insta/li-0.png" />
+              <img src="/images/footer/insta/li-1.png" />
+              <img src="/images/footer/insta/li-2.png" />
+              <img src="/images/footer/insta/li-3.png" />
+              <img src="/images/footer/insta/li-4.png" />
+              <img src="/images/footer/insta/li-5.png" />
             </div>
           </div>
         </section>
